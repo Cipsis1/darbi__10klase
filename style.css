@@ -1,38 +1,24 @@
-.container{
-    display: grid;
-    grid-template-columns: 320px 198px 153px 50px;
-grid-template-rows: 414px 130px 155px 20px;
-    gap: 9px;
-    background-color: black;
-}
 .sarkans{
-background-color: #E72F24;
-grid-row: span 414px;
+    background-color: red;
+    width: 70px;
+    height: 70px;
 }
-
-.balts{
-background-color: #F0F1EC;
-grid-column: span 3;
-}
-
-.zils{
-background-color: #004592;
-}
-
-.dzeltens{
-background-color: #F9D01E;
-}
-
 .zals{
-background-color: #232629;
+    background-color: green;
+    width: 70px;
+    height: 70px;
 }
-.balts1{
-    background-color: #F0F1EC;
-    grid-column: span 1; 
-    grid-row: span 2;
+.violets{
+    background-color: darkmagenta;
+    width: 70px;
+    height: 100px;
 }
-.balts2{
-    background-color: #F0F1EC;
-    grid-row: span 2;
-    grid-column: span 2;
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    height: 100vh;
 }
