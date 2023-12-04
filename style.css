@@ -1,0 +1,20 @@
+h1{
+    font-family: 'Nova Square', sans-serif;
+}
+p{
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+.parmani{
+    text-align: center;
+}
+.prasmes{
+    text-align: center;
+}
+.bilde1{
+    float: left;
+    padding: 1em;
+    height: 30em;
+}
+.text1{
+    display: inline-block;
+}
