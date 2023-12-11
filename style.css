@@ -1,9 +1,11 @@
 h1{
     font-family: 'Nova Square', sans-serif;
     text-align: center;
+    color: #B06161;
 }
 p{
     font-family: 'Saira Extra Condensed', sans-serif;
+    color: #DC8686;
 }
 .bilde1{
     float: left;
@@ -20,4 +22,10 @@ img{
 }
 .logo{
     height:40px;
+}
+body{
+background-color: #F0DBAF;
+}
+div{
+    background-color: #F0DBAF;
 }
